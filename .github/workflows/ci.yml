@@ -14,6 +14,12 @@ jobs:
           sudo apt-get install obs-build
       - name: Build AppImage
         run: |
+          git clone https://github.com/vlang/v
+          cd v
+          make
+          ./v install ui
+          cd ../
+          ./v/v wps-launcher.v
           bash create_appimage.sh
       - name: Upload binaries to release
         uses: svenstaro/upload-release-action@v2
