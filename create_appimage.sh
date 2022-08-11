@@ -2,8 +2,8 @@
 
 . version
 
-WPS_FILE="wps-office-${WPS_VERSION}.${WPS_RELEASE}-1.x86_64.rpm"
-WPS_URL="https://wps-linux-personal.wpscdn.cn/wps/download/ep/Linux2019/${WPS_RELEASE}/${WPS_FILE}"
+WPS_FILE="wps-office-11.1.0.11664.XA-1.x86_64.rpm"
+WPS_URL="https://wdl1.pcfg.cache.wpscdn.com/wpsdl/wpsoffice/download/linux/11664/"
 
 APPDIR="WPS_Office-x86_64.AppDir"
 mkdir -p ${APPDIR}
