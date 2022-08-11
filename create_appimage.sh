@@ -3,7 +3,7 @@
 . version
 
 WPS_FILE="wps-office-11.1.0.11664.XA-1.x86_64.rpm"
-WPS_URL="https://wdl1.pcfg.cache.wpscdn.com/wpsdl/wpsoffice/download/linux/11664/"
+WPS_URL="https://wdl1.pcfg.cache.wpscdn.com/wpsdl/wpsoffice/download/linux/11664/wps-office-11.1.0.11664.XA-1.x86_64.rpm"
 
 APPDIR="WPS_Office-x86_64.AppDir"
 mkdir -p ${APPDIR}
